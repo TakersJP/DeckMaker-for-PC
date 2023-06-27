@@ -3,6 +3,6 @@
 
 <p>こちらの Google Chrome拡張機能は、PCの画面に合わせてデッキメーカーのウェブサイトサイズを拡張します。</p>
 
-![Before](before.png)
+![Before](/Images/before.png)
 
-![After](after.png)
+![After](/Images/after.png)
