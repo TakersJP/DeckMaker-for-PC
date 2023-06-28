@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.DeckEditor {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header searchResult"
+    "deckArea searchResult"
+    "deckArea footer";
+  height: 100vh;
+  left: 0% !important; 
+  width: 100% !important; 
+}
+
+.Header {
+  grid-area: header;
+  width: 600px !important;
+  xheight: 100px;
+  
+}
+
+.DeckArea {
+  grid-area: deckArea;
+  width: 600px !important;
+  background-color: lightblue;
+}
+
+.SearchResult {
+  grid-area: searchResult;
+  background-color: lightgreen;
+  height: 100% !important;
+}
+
+.SearchResult .smooth-dnd-container{
+	flex-wrap: wrap;
+}
+
+.SearchResult li.result{
+	flex: 0 0 15% !important;
+}
+
+.Footer {
+  grid-area: footer;
+  background-color: lightyellow;
+  xheight: 100px;
+}

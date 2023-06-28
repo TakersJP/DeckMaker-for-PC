@@ -1,0 +1,12 @@
+{
+	"manifest_version": 3,
+	"name": "Deck Maker PC ver",
+	"version": "0.1", 
+	"description": "Deck Maker PC ver extends the size to fit your PC's screen",
+	"content_scripts": [
+		{
+			"css": ["style.css"],
+			"matches": ["https://deck-maker.com/dm/decks/*"]
+		}
+	]
+}
