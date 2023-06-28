@@ -3,7 +3,7 @@
 
 <p>こちらの Google Chrome拡張機能は、PCの画面に合わせて[[デッキメーカー](https://deck-maker.com)のウェブサイトのサイズを拡張します。</p>
 
-[Visit OpenAI's website](https://www.openai.com){:target="_blank"}
+
 
 
 
